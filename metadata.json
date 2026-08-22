@@ -1,0 +1,6 @@
+{
+  "name": "BBSR College Nostalgia - Bhubaneswar Student Memories",
+  "description": "An immersive, nostalgic digital memory lane for Bhubaneswar college students featuring Patia vibes, Dahibara Aloo Dum, hostel night tea, authentic music player, and interactive retro keepsakes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
