@@ -1,13 +1,18 @@
 export interface Track {
   id: string;
+  videoId: string;
+  trackNumber: number;
   title: string;
+  songName?: string;
+  rawTitle?: string;
   artist: string;
   album: string;
   duration: number; // in seconds
+  durationFormatted?: string;
   youtubeUrl: string;
   coverImage: string;
-  category: 'Acoustic' | 'Chill' | 'Hostel Jams' | 'Monsoon' | 'Retro';
-  vibe: string;
+  category?: 'Evergreen' | 'Romantic' | 'Nostalgic' | 'Melodic' | 'Acoustic' | 'Retro' | string;
+  vibe?: string;
 }
 
 export interface Quote {
@@ -48,4 +53,11 @@ export interface StudentInfo {
   batch: string;
   favoriteSpot: string;
   favoriteFood: string;
+}
+
+declare global {
+  interface Window {
+    YT?: any;
+    onYouTubeIframeAPIReady?: () => void;
+  }
 }

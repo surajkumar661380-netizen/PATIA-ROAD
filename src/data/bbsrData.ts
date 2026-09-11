@@ -1,62 +1,8 @@
-import { Track, Quote, MemoryPolaroid, InteractiveItem } from '../types';
+import { Track, Quote, MemoryPolaroid, InteractiveItem } from "../types";
+import { YOUTUBE_PLAYLIST_TRACKS } from "./playlistTracks";
 
-export const PLAYLIST_TRACKS: Track[] = [
-  {
-    id: '1',
-    title: 'Patia Evening Acoustic (College Days)',
-    artist: 'BBSR Hostel Jam Circle',
-    album: 'Semester 5 Soundtrack',
-    duration: 215,
-    youtubeUrl: 'https://youtube.com/playlist?list=PL3ZQow2MhFvgv-40VFJqgqhkJGIbHJ-1q&si=9tL2REHxE7eamaHJ',
-    coverImage: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=400&q=80',
-    category: 'Acoustic',
-    vibe: 'Late night corridor jam after 3 AM Maggi'
-  },
-  {
-    id: '2',
-    title: 'Rain over Master Canteen & Kiit Square',
-    artist: 'Bhubaneswar Monsoon Project',
-    album: 'Odisha Retro Vibes',
-    duration: 260,
-    youtubeUrl: 'https://youtube.com/playlist?list=PL3ZQow2MhFvgv-40VFJqgqhkJGIbHJ-1q&si=9tL2REHxE7eamaHJ',
-    coverImage: 'https://images.unsplash.com/photo-1519692933481-e162a57d6721?auto=format&fit=crop&w=400&q=80',
-    category: 'Monsoon',
-    vibe: 'Watching rain drops from Khoka Tea Stall'
-  },
-  {
-    id: '3',
-    title: 'Auto Dada - Patia 20 Taka (Lo-Fi Drive)',
-    artist: 'Ghatikia Beatmakers',
-    album: 'Mo Bus Nostalgia',
-    duration: 185,
-    youtubeUrl: 'https://youtube.com/playlist?list=PL3ZQow2MhFvgv-40VFJqgqhkJGIbHJ-1q&si=9tL2REHxE7eamaHJ',
-    coverImage: 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=400&q=80',
-    category: 'Chill',
-    vibe: 'Riding auto through Chandrasekharpur at sunset'
-  },
-  {
-    id: '4',
-    title: 'End-Sem Panic Attack (3 AM Guitar)',
-    artist: 'Unit-4 Night Owls',
-    album: 'Syllabus Unfinished',
-    duration: 240,
-    youtubeUrl: 'https://youtube.com/playlist?list=PL3ZQow2MhFvgv-40VFJqgqhkJGIbHJ-1q&si=9tL2REHxE7eamaHJ',
-    coverImage: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=400&q=80',
-    category: 'Hostel Jams',
-    vibe: '12 hours left before Digital Electronics exam'
-  },
-  {
-    id: '5',
-    title: 'Puri Beach Sunset Roadtrip',
-    artist: 'Dahibara Acoustic Collective',
-    album: 'Odisha Memories Vol. 1',
-    duration: 290,
-    youtubeUrl: 'https://youtube.com/playlist?list=PL3ZQow2MhFvgv-40VFJqgqhkJGIbHJ-1q&si=9tL2REHxE7eamaHJ',
-    coverImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80',
-    category: 'Retro',
-    vibe: 'Bunking Friday classes to ride to Puri with friends'
-  }
-];
+// ONLY the official YouTube Playlist PLKj-_RSPUgrw tracks
+export const PLAYLIST_TRACKS: Track[] = YOUTUBE_PLAYLIST_TRACKS;
 
 export const NOSTALGIC_QUOTES: Quote[] = [
   {
